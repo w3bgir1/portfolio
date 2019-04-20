@@ -11,50 +11,41 @@ body {
 * {
   font-family: "Raleway", sans-serif; }
 
-.bg-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: -1;
-  overflow: hidden; }
-  .bg-video__content {
-    height: 100%;
-    width: 100%;
-    object-fit: cover; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Raleway", sans-serif; }
-
 h1 {
   color: transparent;
   -webkit-text-stroke: 2px white;
   font-size: 5rem; }
 
-p {
+.header__developer {
   color: white;
   letter-spacing: 0.3rem;
   font-size: 1.2rem; }
 
-.name {
+.header__name {
   margin: 40vh auto;
   width: 60%; }
 
-.navbar {
+.header__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 100%;
+  z-index: -1;
+  overflow: hidden; }
+
+.navigation {
   display: flex;
   justify-content: flex-end;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%; }
-
-.navbar span {
-  display: inline-block;
-  color: white;
-  padding: 2rem;
-  text-transform: uppercase;
-  text-decoration: underline;
-  font-size: 1.2rem;
-  font-weight: 400; }
+  .navigation span {
+    display: inline-block;
+    color: white;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 400;
+    cursor: pointer; }
+    .navigation span:hover {
+      text-decoration: underline; }
