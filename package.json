@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Sasha",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
