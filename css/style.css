@@ -17,18 +17,25 @@ h1 {
   -webkit-text-stroke: 2px #fff;
   font-size: 5rem; }
 
+h2 {
+  margin: 1rem;
+  color: #445566; }
+
 .about {
   width: 80%;
   margin: 2rem auto;
   background-color: #fff;
-  border-radius: 5px; }
+  border-radius: 5px;
+  padding: 1rem; }
+  .about__summary {
+    text-align: center;
+    height: 350px; }
   .about__skills {
     padding: 1rem;
     text-align: center; }
     .about__skills img {
       padding: 1rem;
-      width: 10rem;
-      height: auto;
+      height: 100px;
       margin-top: 8px;
       vertical-align: middle; }
 
