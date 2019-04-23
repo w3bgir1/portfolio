@@ -6,32 +6,48 @@
   box-sizing: inherit; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #f7f7f7; }
 
 * {
   font-family: "Raleway", sans-serif; }
 
 h1 {
   color: transparent;
-  -webkit-text-stroke: 2px white;
+  -webkit-text-stroke: 2px #fff;
   font-size: 5rem; }
 
-.header__developer {
-  color: white;
-  letter-spacing: 0.3rem;
-  font-size: 1.2rem; }
+.about {
+  width: 80%;
+  margin: 2rem auto;
+  background-color: #fff;
+  border-radius: 5px; }
+  .about__skills {
+    padding: 1rem;
+    text-align: center; }
+    .about__skills img {
+      padding: 1rem;
+      width: 10rem;
+      height: auto;
+      margin-top: 8px;
+      vertical-align: middle; }
 
-.header__name {
-  margin: 40vh auto;
-  width: 60%; }
-
-.header__video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-height: 100%;
-  z-index: -1;
-  overflow: hidden; }
+.header {
+  height: 80vh; }
+  .header__developer {
+    color: #fff;
+    letter-spacing: 0.3rem;
+    font-size: 1.2rem; }
+  .header__name {
+    margin: 20% auto;
+    width: 60%; }
+  .header__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+    overflow: hidden; }
 
 .navigation {
   display: flex;
@@ -41,7 +57,7 @@ h1 {
   width: 100%; }
   .navigation span {
     display: inline-block;
-    color: white;
+    color: #fff;
     padding: 2rem;
     text-transform: uppercase;
     font-size: 1.2rem;
