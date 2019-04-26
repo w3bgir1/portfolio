@@ -56,8 +56,6 @@ h3 {
         background-image: url("../../img/photo.jpg");
         background-position: center;
         background-repeat: no-repeat; } }
-  .about__photo {
-    display: none; }
   .about__name {
     display: inline-block;
     position: absolute;
@@ -84,7 +82,7 @@ h3 {
         top: 62%;
         line-height: 1.5rem;
         font-size: 0.8rem; } }
-    .about__name-span {
+    .about__name span {
       -webkit-box-decoration-break: clone;
       padding: 0.5rem;
       box-decoration-break: clone;
