@@ -283,7 +283,7 @@ footer {
     background: linear-gradient(to bottom, #fff, transparent); }
     @media only screen and (max-width: 37.5em) {
       .portfolio__row {
-        background: rgba(255, 255, 255, 0.5); } }
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.1)); } }
   .portfolio__header {
     text-align: center;
     margin: 2rem; }
