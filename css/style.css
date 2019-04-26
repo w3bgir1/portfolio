@@ -166,15 +166,15 @@ ion-icon {
 
 footer {
   margin-top: -10rem;
-  min-height: 10vh;
   background: white;
+  -webkit-clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
-  padding: 5rem; }
+  padding-top: 7rem; }
   @media only screen and (max-width: 37.5em) {
     footer {
-      height: 10rem;
       font-size: .8rem;
-      padding: .5rem; } }
+      font-weight: 400;
+      padding-bottom: 2rem; } }
   footer ul {
     text-decoration: none;
     text-transform: uppercase;
@@ -184,6 +184,9 @@ footer {
       display: inline-block;
       padding: 2rem;
       font-weight: 600; }
+      @media only screen and (max-width: 37.5em) {
+        footer ul li {
+          padding: .5rem; } }
   footer a {
     color: #3f72af;
     text-decoration: none;
