@@ -91,7 +91,7 @@ h3 {
       .about__name {
         width: 45%;
         left: 55%;
-        top: 70%;
+        top: 62%;
         line-height: 1.5rem;
         font-size: .8rem; } }
     .about__name-span {
@@ -118,7 +118,7 @@ h3 {
         background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(249, 247, 247, 0.8)); } }
     @media only screen and (max-width: 37.5em) {
       .about__bio {
-        padding: 0.5rem;
+        padding: 0.3rem;
         top: 5%;
         left: 5%;
         font-size: 0.6rem;
@@ -163,10 +163,15 @@ ion-icon {
 
 footer {
   margin-top: -10rem;
-  height: 10vh;
+  min-height: 10vh;
   background: white;
   clip-path: polygon(0 20%, 100% 0%, 100% 100%, 0% 100%);
   padding: 5rem; }
+  @media only screen and (max-width: 37.5em) {
+    footer {
+      height: 10rem;
+      font-size: .8rem;
+      padding: .5rem; } }
   footer ul {
     text-decoration: none;
     text-transform: uppercase;
@@ -252,7 +257,7 @@ footer {
           height: 80px; } }
       @media only screen and (max-width: 37.5em) {
         .skills__container img {
-          height: 55px; } }
+          height: 70px; } }
     .skills__container__list {
       display: flex;
       padding: 2rem; }
@@ -269,6 +274,7 @@ footer {
   padding: 25rem 1rem 10rem 1rem; }
   .portfolio__row {
     margin-bottom: 7.5rem;
+    background: -webkit-linear-gradient(to bottom, #fff, transparent);
     background-image: linear-gradient(to bottom, #fff, transparent); }
   .portfolio__header {
     text-align: center;
