@@ -14,56 +14,210 @@
   </head>
   <body>
     <header class="header">
-      <video
-        class="header__video"
-        autoPlay
-        loop
-        muted
-      >
-        <source src="./img/video.mp4" type="video/mp4" />
-      </video>
-      <div class='header__name'>
-        <h1>Akulshyna Oleksandra</h1>
-        <span class='header__developer'>Full stack Web developer</span>
-    </header>
-    <section class="navigation">
-        <span>About</span>
-        <a href='./cv.pdf'><span>CV</span></a>
-        <span>Portfolio</span>
-        <span>Contacts</span>
-    </section>
-    <section class="about">
-      <div class="about__summary">
-        <h2>About me</h2>
+      <div class="header__image"></div>
+
+      <div class="header__bio">
+        <p>
+          Hello! I'm a Junior Front end Web Developer recently graduated from
+          Codaisseur Academy. I developed a passion for Front End Web
+          development since I was a teenager (when frames, tables, and animated
+          GIFs were the cool kids). Last year I decided to change my passion
+          into a career. I would welcome opportunity to bring my skills to real
+          projects. Ideally I want to be a valuable part of a fast-developing
+          and modern company. I am open to discuss my potential candidacy for
+          both permanent and temporary role. So get in touch now and see what I
+          can bring to your projects. Thanks for visiting!
+        </p>
       </div>
+      <div class="header__name">
+        <span class="header__name-span"
+          >Oleksandra Akulshyna Fullstack Web Developer based in Amsterdam</span
+        >
+      </div>
+    </header>
+
+    <div class="sticky-container">
+      <ul class="sticky">
+        <li class="chat">
+          <a href="#" class="btn"
+            ><ion-icon name="logo-linkedin"></ion-icon
+            ><span class="descbutton">LinkedIn</span></a
+          >
+        </li>
+        <li class="news">
+          <a href="#" class="btn"
+            ><ion-icon name="logo-github"></ion-icon
+            ><span class="descbutton">GitHub</span></a
+          >
+        </li>
+        <li class="notes">
+          <a href="#" class="btn"
+            ><ion-icon name="mail"></ion-icon
+            ><span class="descbutton">Email</span></a
+          >
+        </li>
+      </ul>
+    </div>
+    <section class="about">
       <div class="about__skills">
         <h2>Skills</h2>
-        <img src='./img/skills/javascript.png' alt='JS'/>
-        <img src='./img/skills/css.png' alt='CSS'/>
-        <img src='./img/skills/html.png' alt='HTML'/>
-        <img src='./img/skills/sass.png' alt='SASS'/>
-        <img src='./img/skills/react.png' alt='React'/>
-        <img src='./img/skills/redux.png' alt='Redux'/>
-      </br>
-        <img src='./img/skills/node.png' alt='Node'/>
-        <img src='./img/skills/npm.png' alt='npm'/>
-        <img src='./img/skills/koa.png' alt='Koa'/>
-        <img src='./img/skills/express.png' alt='Express'/>
-      </br>
-        <img src='./img/skills/typescript.png' alt='Typescript'/>
-        <img src='./img/skills/mysql.jpg' alt='MySQL'/>
-        <img src='./img/skills/postgres.png' alt='Postgres'/>
-        <img src='./img/skills/graphql.png' alt='GraphQL'/>
-      </br>
-        <img src='./img/skills/heroku.png' alt='Heroku'/>
-        <img src='./img/skills/github.png' alt='GitHub'/>
-        <img src='./img/skills/photoshop.png' alt='Photoshop'/>
-        <img src='./img/skills/git.png' alt='Git'/>
-        <img src='./img/skills/slack.png' alt='Slack'/>
-        <img src='./img/skills/figma.png' alt='Figma'/>
+        <div class="skills__list">
+          <img src="./img/skills/javascript.png" alt="JS" />
+          <img src="./img/skills/css.png" alt="CSS" />
+          <img src="./img/skills/html.png" alt="HTML" />
+          <img src="./img/skills/sass.png" alt="SASS" />
+          <img src="./img/skills/react.png" alt="React" />
+          <img src="./img/skills/redux.png" alt="Redux" />
+          <img src="./img/skills/node.png" alt="Node" />
+          <img src="./img/skills/npm.png" alt="npm" />
+          <img src="./img/skills/koa.png" alt="Koa" />
+          <img src="./img/skills/express.png" alt="Express" />
+          <img src="./img/skills/apollo.png" alt="Apollo" />
+          <img src="./img/skills/typescript.png" alt="Typescript" />
+          <img src="./img/skills/mysql.jpg" alt="MySQL" />
+          <img src="./img/skills/postgres.png" alt="Postgres" />
+          <img src="./img/skills/graphql.png" alt="GraphQL" />
+          <img src="./img/skills/sequelize.png" alt="Sequelize" />
+          <img src="./img/skills/heroku.png" alt="Heroku" />
+          <img src="./img/skills/github.png" alt="GitHub" />
+          <img src="./img/skills/photoshop.png" alt="Photoshop" />
+          <img src="./img/skills/git.png" alt="Git" />
+          <img src="./img/skills/slack.png" alt="Slack" />
+          <img src="./img/skills/figma.png" alt="Figma" />
+        </div>
       </div>
     </section>
-    <section class="portfolio"></section>
-    <section class="contacts"></section>
+    <section class="portfolio">
+      <div class="portfolio__header">
+        <h2>Portfolio</h2>
+      </div>
+
+      <div class="row portfolio__row">
+        <div class="col-3-of-4">
+          <img src="./img/gitgud.png" alt="GitGud" />
+        </div>
+        <div class="col-1-of-4">
+          <div class="portfolio__details">
+            <h3>GitGud</h3>
+            <ul>
+              <li>React</li>
+              <li>Apollo Client/Apollo Server</li>
+              <li>Typescript</li>
+              <li>GraphQL</li>
+              <li>Postgres</li>
+              <li>Koa</li>
+              <li>TypeORM</li>
+            </ul>
+            <a href="https://gityougud.herokuapp.com/" target="_blank">Demo</a>
+            <a
+              href="https://github.com/Official-Codaisseur-Graduate/git-gud"
+              target="_blank"
+              >GitHub</a
+            >
+            <p>
+              A validator of your GitHub profile and Git use, designed to
+              provide feedback for job seekers and graduated students.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">
+          <div class="portfolio__details">
+            <h3>TicketSwapp</h3>
+            <ul>
+              <li>React/Redux</li>
+              <li>Express</li>
+              <li>CSS</li>
+              <li>React Router</li>
+              <li>Typescript</li>
+              <li>Webtoken</li>
+              <li>Bcrypt</li>
+              <li>Koa</li>
+              <li>Routing controllers</li>
+              <li>TypeORM</li>
+              <li>Postgres</li>
+            </ul>
+            <a href="https://ticketswapp.netlify.com/" target="_blank">Demo</a>
+            <p>
+              A clone of Ticketswap. Final evaluation project at Codaisseur
+              Academy.
+            </p>
+          </div>
+        </div>
+        <div class="col-3-of-4">
+          <img src="./img/ticketswapp.png" alt="TicketSwapp" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-3-of-4">
+          <img src="./img/fortune.png" alt="Wheel of  Fortune" />
+        </div>
+        <div class="col-1-of-4">
+          <div class="portfolio__details">
+            <h3>Wheel of Fortune</h3>
+            <ul>
+              <li>React/Redux</li>
+              <li>Javascript</li>
+              <li>CSS</li>
+              <li>Superagent</li>
+              <li>React Router</li>
+            </ul>
+            <a href="https://wheeloffortune.netlify.com" target="_blank"
+              >Demo</a
+            >
+            <a
+              href="https://github.com/w3bgir1/wheel-of-fortune"
+              target="_blank"
+              >GitHub</a
+            >
+            <p>Multiplayer game. Team project at Codaisseur Academy</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">
+          <div class="portfolio__details">
+            <h3>Memo Dog</h3>
+            <ul>
+              <li>React/Redux</li>
+              <li>Javascript</li>
+              <li>Superagent</li>
+              <li>React Router</li>
+
+              <li>CSS</li>
+            </ul>
+            <a href="https://memo-dog.netlify.com/" target="_blank">Demo</a>
+            <a
+              href="https://github.com/CurlyBracket1990/memo-dog/tree/development"
+              target="_blank"
+              >GitHub</a
+            >
+            <p>
+              Try to guess dog breeds game. Team project at Codaisseur Academy
+            </p>
+          </div>
+        </div>
+        <div class="col-3-of-4">
+          <img src="./img/memodog.png" alt="Memo Dog" />
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="row">
+        <div class="col-1-of-2">
+          <ul>
+            <li>about</li>
+            <li>skills</li>
+            <li>CV</li>
+            <li>portfolio</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
   </body>
 </html>
