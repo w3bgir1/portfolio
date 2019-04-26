@@ -241,11 +241,11 @@ footer {
   .portfolio__details {
     height: 100%;
     padding: 1rem; }
-    .portfolio__details ul {
+    .portfolio__details__technologies {
       list-style: none;
       width: 80%;
       margin: 1rem; }
-      .portfolio__details ul li {
+      .portfolio__details__technologies li {
         display: inline-block;
         padding: 0.3rem;
         color: #3f72af;
@@ -253,3 +253,7 @@ footer {
         border-radius: 30px;
         font-size: 0.7rem;
         margin: 0.2rem; }
+    .portfolio__details__features {
+      list-style: none;
+      width: 80%;
+      margin: 1rem; }
