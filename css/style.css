@@ -36,7 +36,7 @@ h1 {
   letter-spacing: .2rem; }
 
 h2 {
-  margin: 1rem;
+  margin: 2rem;
   font-size: 2.5rem;
   text-transform: uppercase;
   display: inline-block;
@@ -57,29 +57,15 @@ h3 {
 .about {
   min-height: 100vh;
   width: 100%;
-  padding: 15rem 0;
+  padding: 10rem 0;
   background: white;
   transform: skewY(-7deg);
   margin-top: -6.5rem;
-  padding: 10rem; }
+  padding: 8rem; }
   .about > * {
     transform: skewY(7deg); }
-  .about__summary {
-    width: 80%;
-    height: 400px;
-    margin: 5rem; }
-    .about__summary__photo {
-      float: left;
-      height: 300px;
-      padding: 0.2rem;
-      margin: 2rem;
-      margin-left: 0;
-      border-radius: 1000px;
-      border: 1px solid black; }
-    .about__summary p {
-      margin: 5rem; }
   .about__skills {
-    padding: 1rem;
+    padding: 2rem;
     margin: 1rem auto;
     width: 55%;
     text-align: center; }
@@ -271,4 +257,5 @@ footer {
     .portfolio__details__features {
       list-style: none;
       width: 80%;
-      margin: 1rem; }
+      margin: 1rem;
+      font-size: 0.9rem; }
