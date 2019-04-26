@@ -92,6 +92,43 @@ h3 {
       display: flex;
       padding: 2rem; }
 
+.contacts {
+  position: fixed;
+  right: -5rem;
+  top: 12%;
+  width: 8rem;
+  z-index: 1; }
+  .contacts li {
+    height: 2.5rem;
+    padding: .5rem;
+    list-style-type: none;
+    color: #ffffff;
+    border-radius: 5px;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    cursor: pointer; }
+    .contacts li span {
+      font-size: 1rem;
+      display: flex;
+      align-items: center; }
+    .contacts li:hover {
+      margin-left: -6rem; }
+    .contacts li a {
+      color: #ffffff;
+      text-decoration: none; }
+  .contacts__linkedin {
+    background-color: #112d4e; }
+  .contacts__github {
+    background-color: #3f72af; }
+  .contacts__email {
+    background-color: #dd6b4d; }
+
+ion-icon {
+  padding-right: 1rem;
+  font-size: 1.5rem; }
+
 footer {
   margin-top: -20rem;
   height: 30vh;
@@ -102,44 +139,6 @@ footer {
     text-decoration: none;
     text-transform: uppercase;
     list-style: none; }
-
-.sticky-container {
-  position: fixed;
-  right: -5rem;
-  top: 12%;
-  width: 8rem;
-  z-index: 1; }
-  .sticky-container li {
-    font-size: 1rem;
-    height: 3.5rem;
-    list-style-type: none;
-    padding: 1rem;
-    color: #ffffff;
-    border-radius: 5px;
-    -webkit-transition: all 0.25s ease-in-out;
-    -moz-transition: all 0.25s ease-in-out;
-    -o-transition: all 0.25s ease-in-out;
-    transition: all 0.25s ease-in-out;
-    cursor: pointer; }
-    .sticky-container li span {
-      padding-left: .5rem; }
-    .sticky-container li:hover {
-      margin-left: -7rem; }
-    .sticky-container li a {
-      color: #ffffff;
-      text-decoration: none; }
-
-ion-icon {
-  font-size: 1.5rem; }
-
-.chat {
-  background-color: #112d4e; }
-
-.news {
-  background-color: #3f72af; }
-
-.notes {
-  background-color: #dd6b4d; }
 
 .row {
   max-width: 80%;
