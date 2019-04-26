@@ -37,6 +37,7 @@ h2 {
   font-size: 2.5rem;
   text-transform: uppercase;
   display: inline-block;
+  background-image: -webkit-linear-gradient(to right, #3f72af, #112d4e);
   background-image: linear-gradient(to right, #3f72af, #112d4e);
   -webkit-background-clip: text;
   color: transparent;
@@ -44,6 +45,7 @@ h2 {
 
 h3 {
   margin: 1rem;
+  background-image: -webkit-linear-gradient(to bottom, #3f72af, #112d4e);
   background-image: linear-gradient(to bottom, #3f72af, #112d4e);
   -webkit-background-clip: text;
   color: transparent;
@@ -275,7 +277,7 @@ footer {
   .portfolio__row {
     margin-bottom: 7.5rem;
     background: -webkit-linear-gradient(to bottom, #fff, transparent);
-    background-image: linear-gradient(to bottom, #fff, transparent); }
+    background: linear-gradient(to bottom, #fff, transparent); }
   .portfolio__header {
     text-align: center;
     margin: 2rem; }
