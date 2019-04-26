@@ -172,7 +172,7 @@ footer {
   padding-top: 7rem; }
   @media only screen and (max-width: 37.5em) {
     footer {
-      font-size: .8rem;
+      font-size: 0.8rem;
       font-weight: 400;
       padding-bottom: 2rem; } }
   footer ul {
@@ -186,11 +186,11 @@ footer {
       font-weight: 600; }
       @media only screen and (max-width: 37.5em) {
         footer ul li {
-          padding: .5rem; } }
+          padding: 0.5rem; } }
   footer a {
     color: #3f72af;
     text-decoration: none;
-    padding: .5rem;
+    padding: 0.5rem;
     transition: all 0.2s; }
     footer a:hover {
       color: #fff;
@@ -283,8 +283,7 @@ footer {
     background: linear-gradient(to bottom, #fff, transparent); }
     @media only screen and (max-width: 37.5em) {
       .portfolio__row {
-        background: -webkit-linear-gradient(to bottom, #fff, rgba(0, 0, 0, 0));
-        background: linear-gradient(to bottom, #fff, rgba(0, 0, 0, 0)); } }
+        background: rgba(255, 255, 255, 0.5); } }
   .portfolio__header {
     text-align: center;
     margin: 2rem; }
