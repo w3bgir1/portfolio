@@ -200,8 +200,7 @@ footer {
   margin: 0 auto; }
   @media only screen and (max-width: 56.25em) {
     .row {
-      max-width: 50rem;
-      padding: 0 3rem; } }
+      max-width: 50rem; } }
   .row::after {
     content: "";
     display: table;
@@ -281,8 +280,8 @@ footer {
     background: linear-gradient(to bottom, #fff, transparent); }
     @media only screen and (max-width: 37.5em) {
       .portfolio__row {
-        background: -webkit-linear-gradient(to bottom, #fff, #dbe2ef);
-        background: linear-gradient(to bottom, #fff, #dbe2ef); } }
+        background: -webkit-linear-gradient(to bottom, #fff, transparent);
+        background: linear-gradient(to bottom, #fff, transparent); } }
   .portfolio__header {
     text-align: center;
     margin: 2rem; }
