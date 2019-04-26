@@ -280,8 +280,8 @@ footer {
     background: linear-gradient(to bottom, #fff, transparent); }
     @media only screen and (max-width: 37.5em) {
       .portfolio__row {
-        background: -webkit-linear-gradient(to bottom, #fff, transparent);
-        background: linear-gradient(to bottom, #fff, transparent); } }
+        background: -webkit-linear-gradient(to bottom, #fff, rgba(0, 0, 0, 0));
+        background: linear-gradient(to bottom, #fff, rgba(0, 0, 0, 0)); } }
   .portfolio__header {
     text-align: center;
     margin: 2rem; }
